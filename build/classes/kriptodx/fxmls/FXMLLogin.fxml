@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="450.0" prefWidth="300.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kriptodx.controllers.FXMLLoginController">
+    <children>
+        <Button fx:id="buttonLogin" layoutX="60.0" layoutY="296.0" onAction="#loginAction" prefHeight="50.0" prefWidth="200.0" text="LOGIN" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+        <Label fx:id="labelErr" layoutX="50.0" layoutY="273.0" minHeight="16" minWidth="69" prefHeight="17.0" prefWidth="200.0" textFill="#049ce8" AnchorPane.bottomAnchor="110.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <Label layoutX="50.0" layoutY="158.0" prefHeight="17.0" prefWidth="200.0" text="USERNAME" textFill="WHITE" AnchorPane.bottomAnchor="225.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <TextField fx:id="username" layoutX="50.0" layoutY="175.0" prefHeight="25.0" prefWidth="200.0" AnchorPane.bottomAnchor="200.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <Label layoutX="50.0" layoutY="208.0" prefHeight="17.0" prefWidth="200.0" text="PASSWORD" textFill="WHITE" AnchorPane.bottomAnchor="175.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <PasswordField fx:id="password" layoutX="61.0" layoutY="219.0" prefHeight="25.0" prefWidth="200.0" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <Region layoutX="50.0" layoutY="32.0" prefHeight="140.0" prefWidth="200.0" style="-fx-background-image: url(kriptodx/assets/cryptologo.png); -fx-background-size: contain; -fx-background-repeat: no-repeat; -fx-background-position: center;" AnchorPane.bottomAnchor="278.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="32.0" />
+    </children>
+</AnchorPane>
